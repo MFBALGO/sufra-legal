@@ -23,7 +23,7 @@
 <body>
   <div class="wrap">
     <h1>Sufra — Privacy Policy</h1>
-    <div class="date">Last updated: 25 June 2026</div>
+    <div class="date">Last updated: 10 October 2026</div>
 
     <p class="lead">Sufra (“the app”, “we”, “us”) is a household meal-planning
       app. This policy explains what information the app collects, how we use
@@ -57,9 +57,9 @@
     <h2>How we use your information</h2>
     <p>We use the information <strong>only to provide the app’s features</strong>
       — to sign you in, save your dishes and meal plans, scale recipes to your
-      headcount, show the day’s menu on the cook’s display, and build your
-      shopping list. We do not use your information for advertising, marketing,
-      profiling, or analytics.</p>
+      headcount, show the day’s menu on the cook’s display, build your
+      shopping list, and power the AI features described below. We do not use
+      your information for advertising, marketing, profiling, or analytics.</p>
 
     <h2>How your information is shared</h2>
     <p>We do not sell or rent your data. We share information only with the
@@ -67,15 +67,44 @@
     <ul>
       <li><strong>Supabase</strong> — secure cloud hosting and database where
         your account and content are stored (data centre in Tokyo, Japan).</li>
-      <li><strong>Google (Gmail)</strong> — delivers your one-time sign-in code
-        to your email address.</li>
-      <li><strong>Google</strong> — only when you choose to import a recipe from
-        a YouTube link, the link’s recipe content is sent to Google’s APIs to
-        read the recipe. No account data is sent.</li>
-      <li><strong>Apple</strong> — distributes the app.</li>
+      <li><strong>Resend</strong> — delivers your one-time sign-in code to your
+        email address (the email comes from login@sufraappksa.com).</li>
+      <li><strong>Anthropic (Claude)</strong> — the AI service behind the
+        features described in the next section. Only the text needed for the
+        feature is sent; no account data is sent.</li>
+      <li><strong>Apple and Google</strong> — distribute the app through the App
+        Store and Google Play.</li>
     </ul>
     <p>These providers process data on our behalf and are not permitted to use
       it for their own purposes.</p>
+
+    <h2>AI features</h2>
+    <p>Three features use Anthropic’s Claude AI service (Anthropic PBC, a US
+      company) to read or write text for you. In each case only the text needed
+      for that feature is sent — never your email address, account identifier,
+      the names of household members, or photos:</p>
+    <ul>
+      <li><strong>Create with AI</strong> — the text you type into the Create
+        with AI chat is sent to Claude to draft a dish for you to review (along
+        with the list of measurement units you use, so the draft uses units you
+        already have). It is used only to produce that draft. Sufra does not
+        store the chat; only a dish you choose to save is kept, like any other
+        dish you create.</li>
+      <li><strong>Import a dish from a link</strong> — when you paste a recipe
+        page, YouTube, TikTok or Instagram link, Sufra fetches that page’s or
+        video’s public text (its recipe, description or caption) and sends it to
+        Claude to pull out the recipe. You review the result before saving.</li>
+      <li><strong>Kitchen-display translation</strong> — if the cook’s display is
+        set to a different language from the one a dish was written in, the
+        dish’s name, ingredient names and prep notes may be sent to Claude to
+        translate them for the cook.</li>
+    </ul>
+    <p>Under Anthropic’s commercial terms, text sent this way is <strong>not used
+      to train AI models</strong>, and Anthropic deletes it from its systems
+      within 30 days unless it must keep it longer to enforce its usage policy
+      or comply with the law. AI drafts and translations can contain mistakes —
+      please check them before you rely on them. Every AI draft has a “Report a
+      problem with this draft” link that emails us.</p>
 
     <h2>How we protect your information</h2>
     <p>Sign-in uses a one-time code, the cook’s display is connected with a
